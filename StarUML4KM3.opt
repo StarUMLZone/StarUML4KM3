@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OPTIONSCHEMA id="StarUML.StarUML4KM3"> 
+  <HEADER>
+    <CAPTION>KM3</CAPTION> 
+		<DESCRIPTION>Options for KM3 add-in</DESCRIPTION> 
+	</HEADER>
+  <BODY>
+    <OPTIONCATEGORY>
+      <CAPTION>Generation</CAPTION>
+        <DESCRIPTION>Options controlling the generation process of KM3 files</DESCRIPTION>
+		    <OPTIONCLASSIFICATION>
+            <CAPTION>Generation fine tuning</CAPTION>
+            <DESCRIPTION>Options for tuning the km3 text generated</DESCRIPTION>
+						
+			      <OPTIONITEM-BOOLEAN key="generateRoleNames">
+							<CAPTION>Generate role names</CAPTION>
+							<DESCRIPTION>Generate role names when they are not set. If so the name of the class is used with a lowercase.</DESCRIPTION>
+							<DEFAULTVALUE>True</DEFAULTVALUE>
+						</OPTIONITEM-BOOLEAN>
+			
+						<OPTIONITEM-BOOLEAN key="generateComments">
+							<CAPTION>Generate comments</CAPTION>
+							<DESCRIPTION>Generate KM3 comments from UML element documentation</DESCRIPTION>
+							<DEFAULTVALUE>True</DEFAULTVALUE>
+						</OPTIONITEM-BOOLEAN>
+						
+						<OPTIONITEM-BOOLEAN key="generateConstraints">
+							<CAPTION>Generate constraints</CAPTION>
+							<DESCRIPTION>Generate KM3 comments from StarUML constraints</DESCRIPTION>
+							<DEFAULTVALUE>True</DEFAULTVALUE>
+						</OPTIONITEM-BOOLEAN>
+						
+        </OPTIONCLASSIFICATION>
+		
+    </OPTIONCATEGORY>
+	</BODY>
+</OPTIONSCHEMA>
