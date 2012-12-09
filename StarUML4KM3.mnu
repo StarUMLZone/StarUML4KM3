@@ -6,7 +6,7 @@
 				<MAINITEM 
 					caption="Save packages as KM3 files" 
 					availableWhen="PROJECT_OPENED"
-					script="StarUML4KM3.js"/>
+					script="src\StarUML4KM3.js"/>
 			</MAINITEM>
         </MAINMENU>
     </BODY>
