@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <ADDINMENU addInID="StarUML.StarUML4KM3">
-    <BODY>
-        <MAINMENU>
-            <MAINITEM base="TOOLS" caption="KM3" availableWhen="PROJECT_OPENED">
-				<MAINITEM 
-					caption="Save packages as KM3 files" 
-					availableWhen="PROJECT_OPENED"
-					script="src\StarUML4KM3.js"/>
+  <BODY>
+    <MAINMENU>
+      <MAINITEM base="TOOLS" caption="KM3" availableWhen="PROJECT_OPENED">
+	      <MAINITEM 
+				  caption="Save packages as KM3 files" 
+				  availableWhen="PROJECT_OPENED"
+				  script="src\StarUML4KM3.js"/>
 			</MAINITEM>
-        </MAINMENU>
-    </BODY>
+    </MAINMENU>
+  </BODY>
 </ADDINMENU>
